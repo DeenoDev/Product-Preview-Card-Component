@@ -108,10 +108,12 @@
     --content-padding: 1.5rem;
     --content-spacing: 1rem;
     display: grid;
+    max-width: 600px;
   }
 
   @media (min-width: 600px){
     .product{
+        --content-padding: 2rem;
         grid-template-columns: 1fr 1fr;
     }
   }
