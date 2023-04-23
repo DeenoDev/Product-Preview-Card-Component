@@ -60,5 +60,21 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+  /* General Styling */
+
+  body{
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-400);
+    font-size: 0.875rem;
+    background-color: var(--clr-secondary-200);
+
+    /* for this project only */
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    margin: 1rem;
+  }
  
  
