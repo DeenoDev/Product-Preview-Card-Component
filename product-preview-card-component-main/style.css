@@ -107,7 +107,15 @@
     overflow: hidden;
     --content-padding: 1.5rem;
     --content-spacing: 1rem;
+    display: grid;
   }
+
+  @media (min-width: 600px){
+    .product{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
 
   .product__content {
     /* border: 3px solid red; */
