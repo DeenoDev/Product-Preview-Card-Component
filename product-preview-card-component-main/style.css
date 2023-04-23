@@ -89,6 +89,15 @@
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
     overflow: hidden;
+    --content-padding: 1.5rem;
+  }
+
+  .product__content {
+    border: 3px solid red;
+    display: grid;
+    gap: 1rem;
+    padding: var(--content-padding);
+
   }
  
  
