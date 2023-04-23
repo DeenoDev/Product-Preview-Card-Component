@@ -76,5 +76,19 @@
     min-height: 100vh;
     margin: 1rem;
   }
+
+  /* utilities */
+  .flex-group{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+   /* product styles */
+  .product{
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
  
  
